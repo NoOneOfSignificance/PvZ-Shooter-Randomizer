@@ -7,7 +7,8 @@ This is a randomizer program used for all of the Plants vs. Zombies Shooters. Cu
 - Include Garden Warfare 2 Random Upgrade support
 - Include Battle for Neighborville Random Upgrade support
 - Create a settings page where the user can adjust their unlocks accordingly
-- Change visuals down the line
+- Code cleanup
+- Change visuals
 - More Quality of Life improvements
 
 ### Version History
