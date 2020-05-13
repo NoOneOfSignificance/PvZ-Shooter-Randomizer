@@ -3,8 +3,15 @@ A character randomizer for Plants vs. Zombies: Garden Warfare, Plants vs. Zombie
 
 This is a randomizer program used for all of the Plants vs. Zombies Shooters. Currently it's not finished yet, more work will be done to it overtime.
 
+# To-Do List
+- Include Garden Warfare 2 Random Upgrade support
+- Include Battle for Neighborville Random Upgrade support
+- Create a settings page where the user can adjust their unlocks accordingly
+- Change visuals down the line
+- More Quality of Life improvements
+
 # Version History
- #0.1
+ 0.1
  - Program made available to the public
  - Selects characters randomly given user input for their team
  - Randomly selects abilities for all Garden Warfare 1 Plants and Foot Soldiers
