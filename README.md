@@ -16,3 +16,6 @@ This is a randomizer program used for all of the Plants vs. Zombies Shooters. Cu
  - Program made available to the public
  - Selects characters randomly given user input for their team
  - Randomly selects abilities for all Garden Warfare 1 Plants and Foot Soldiers
+
+ 0.2
+ - Full Random Ability support for Garden Warfare 1 and Garden Warfare 2
