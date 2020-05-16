@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.label9 = new System.Windows.Forms.Label();
+            this.AbilityLabel3gw = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.AbilityLabel2gw = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.AbilityLabel1gw = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.gw1CharacterOutput = new System.Windows.Forms.TextBox();
@@ -48,9 +48,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
+            this.AbilityLabel3 = new System.Windows.Forms.Label();
+            this.AbilityLabel2 = new System.Windows.Forms.Label();
+            this.AbilityLabel1 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
@@ -75,6 +75,13 @@
             this.bfnTeamSelect = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.UPGLabel1 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.UPGLabel2 = new System.Windows.Forms.Label();
+            this.UPGLabel3 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -90,16 +97,16 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(495, 235);
+            this.tabControl1.Size = new System.Drawing.Size(687, 235);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.label9);
+            this.tabPage1.Controls.Add(this.AbilityLabel3gw);
             this.tabPage1.Controls.Add(this.label10);
-            this.tabPage1.Controls.Add(this.label8);
+            this.tabPage1.Controls.Add(this.AbilityLabel2gw);
             this.tabPage1.Controls.Add(this.label7);
-            this.tabPage1.Controls.Add(this.label6);
+            this.tabPage1.Controls.Add(this.AbilityLabel1gw);
             this.tabPage1.Controls.Add(this.label5);
             this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.gw1CharacterOutput);
@@ -114,20 +121,20 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(487, 209);
+            this.tabPage1.Size = new System.Drawing.Size(679, 209);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "PvZ: GW";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // label9
+            // AbilityLabel3gw
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(348, 158);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(51, 13);
-            this.label9.TabIndex = 15;
-            this.label9.Text = "name 3";
+            this.AbilityLabel3gw.AutoSize = true;
+            this.AbilityLabel3gw.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AbilityLabel3gw.Location = new System.Drawing.Point(305, 158);
+            this.AbilityLabel3gw.Name = "AbilityLabel3gw";
+            this.AbilityLabel3gw.Size = new System.Drawing.Size(51, 13);
+            this.AbilityLabel3gw.TabIndex = 15;
+            this.AbilityLabel3gw.Text = "name 3";
             // 
             // label10
             // 
@@ -135,19 +142,19 @@
             this.label10.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(273, 158);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(69, 13);
+            this.label10.Size = new System.Drawing.Size(26, 13);
             this.label10.TabIndex = 14;
-            this.label10.Text = "Ability 3 - ";
+            this.label10.Text = "3 - ";
             // 
-            // label8
+            // AbilityLabel2gw
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(348, 133);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 13);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "name 2";
+            this.AbilityLabel2gw.AutoSize = true;
+            this.AbilityLabel2gw.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AbilityLabel2gw.Location = new System.Drawing.Point(305, 133);
+            this.AbilityLabel2gw.Name = "AbilityLabel2gw";
+            this.AbilityLabel2gw.Size = new System.Drawing.Size(51, 13);
+            this.AbilityLabel2gw.TabIndex = 13;
+            this.AbilityLabel2gw.Text = "name 2";
             // 
             // label7
             // 
@@ -155,29 +162,29 @@
             this.label7.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(273, 133);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 13);
+            this.label7.Size = new System.Drawing.Size(26, 13);
             this.label7.TabIndex = 12;
-            this.label7.Text = "Ability 2 - ";
+            this.label7.Text = "2 - ";
             // 
-            // label6
+            // AbilityLabel1gw
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(348, 107);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 13);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "name 1";
+            this.AbilityLabel1gw.AutoSize = true;
+            this.AbilityLabel1gw.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AbilityLabel1gw.Location = new System.Drawing.Point(305, 107);
+            this.AbilityLabel1gw.Name = "AbilityLabel1gw";
+            this.AbilityLabel1gw.Size = new System.Drawing.Size(48, 13);
+            this.AbilityLabel1gw.TabIndex = 11;
+            this.AbilityLabel1gw.Text = "name 1";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(273, 107);
+            this.label5.Location = new System.Drawing.Point(276, 107);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(66, 13);
+            this.label5.Size = new System.Drawing.Size(23, 13);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Ability 1 - ";
+            this.label5.Text = "1 - ";
             // 
             // label4
             // 
@@ -289,9 +296,16 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.label23);
-            this.tabPage2.Controls.Add(this.label22);
-            this.tabPage2.Controls.Add(this.label21);
+            this.tabPage2.Controls.Add(this.UPGLabel3);
+            this.tabPage2.Controls.Add(this.UPGLabel2);
+            this.tabPage2.Controls.Add(this.label27);
+            this.tabPage2.Controls.Add(this.label26);
+            this.tabPage2.Controls.Add(this.UPGLabel1);
+            this.tabPage2.Controls.Add(this.label25);
+            this.tabPage2.Controls.Add(this.label24);
+            this.tabPage2.Controls.Add(this.AbilityLabel3);
+            this.tabPage2.Controls.Add(this.AbilityLabel2);
+            this.tabPage2.Controls.Add(this.AbilityLabel1);
             this.tabPage2.Controls.Add(this.label20);
             this.tabPage2.Controls.Add(this.label19);
             this.tabPage2.Controls.Add(this.label18);
@@ -308,76 +322,76 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(487, 209);
+            this.tabPage2.Size = new System.Drawing.Size(679, 209);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "PvZ: GW2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // label23
+            // AbilityLabel3
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(348, 158);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(51, 13);
-            this.label23.TabIndex = 15;
-            this.label23.Text = "name 3";
+            this.AbilityLabel3.AutoSize = true;
+            this.AbilityLabel3.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AbilityLabel3.Location = new System.Drawing.Point(251, 158);
+            this.AbilityLabel3.Name = "AbilityLabel3";
+            this.AbilityLabel3.Size = new System.Drawing.Size(58, 13);
+            this.AbilityLabel3.TabIndex = 15;
+            this.AbilityLabel3.Text = "Ability 3";
             // 
-            // label22
+            // AbilityLabel2
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(348, 133);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(51, 13);
-            this.label22.TabIndex = 14;
-            this.label22.Text = "name 2";
+            this.AbilityLabel2.AutoSize = true;
+            this.AbilityLabel2.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AbilityLabel2.Location = new System.Drawing.Point(251, 133);
+            this.AbilityLabel2.Name = "AbilityLabel2";
+            this.AbilityLabel2.Size = new System.Drawing.Size(58, 13);
+            this.AbilityLabel2.TabIndex = 14;
+            this.AbilityLabel2.Text = "Ability 2";
             // 
-            // label21
+            // AbilityLabel1
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(348, 107);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(48, 13);
-            this.label21.TabIndex = 13;
-            this.label21.Text = "name 1";
+            this.AbilityLabel1.AutoSize = true;
+            this.AbilityLabel1.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AbilityLabel1.Location = new System.Drawing.Point(251, 107);
+            this.AbilityLabel1.Name = "AbilityLabel1";
+            this.AbilityLabel1.Size = new System.Drawing.Size(55, 13);
+            this.AbilityLabel1.TabIndex = 13;
+            this.AbilityLabel1.Text = "Ability 1";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(273, 158);
+            this.label20.Location = new System.Drawing.Point(223, 158);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(69, 13);
+            this.label20.Size = new System.Drawing.Size(26, 13);
             this.label20.TabIndex = 12;
-            this.label20.Text = "Ability 3 - ";
+            this.label20.Text = "3 - ";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(273, 133);
+            this.label19.Location = new System.Drawing.Point(223, 133);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(69, 13);
+            this.label19.Size = new System.Drawing.Size(26, 13);
             this.label19.TabIndex = 11;
-            this.label19.Text = "Ability 2 - ";
+            this.label19.Text = "2 - ";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(273, 107);
+            this.label18.Location = new System.Drawing.Point(226, 107);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(66, 13);
+            this.label18.Size = new System.Drawing.Size(23, 13);
             this.label18.TabIndex = 10;
-            this.label18.Text = "Ability 1 - ";
+            this.label18.Text = "1 - ";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Burbank Small Bold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(261, 86);
+            this.label17.Location = new System.Drawing.Point(222, 86);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(66, 15);
             this.label17.TabIndex = 9;
@@ -387,7 +401,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Burbank Small Bold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(261, 35);
+            this.label16.Location = new System.Drawing.Point(222, 35);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(78, 15);
             this.label16.TabIndex = 8;
@@ -396,9 +410,9 @@
             // gw2CharacterOutput
             // 
             this.gw2CharacterOutput.Font = new System.Drawing.Font("Burbank Small Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gw2CharacterOutput.Location = new System.Drawing.Point(264, 54);
+            this.gw2CharacterOutput.Location = new System.Drawing.Point(225, 54);
             this.gw2CharacterOutput.Name = "gw2CharacterOutput";
-            this.gw2CharacterOutput.Size = new System.Drawing.Size(213, 23);
+            this.gw2CharacterOutput.Size = new System.Drawing.Size(252, 23);
             this.gw2CharacterOutput.TabIndex = 7;
             // 
             // gw2RandomUpgrades
@@ -608,15 +622,85 @@
             this.label13.Text = "Plants vs. Zombies: Battle for Neighborville\r\nCharacter Randomizer";
             this.label13.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Burbank Small Bold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(403, 86);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(74, 15);
+            this.label24.TabIndex = 16;
+            this.label24.Text = "Upgrades";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(403, 107);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(23, 13);
+            this.label25.TabIndex = 17;
+            this.label25.Text = "1 - ";
+            // 
+            // UPGLabel1
+            // 
+            this.UPGLabel1.AutoSize = true;
+            this.UPGLabel1.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UPGLabel1.Location = new System.Drawing.Point(429, 107);
+            this.UPGLabel1.Name = "UPGLabel1";
+            this.UPGLabel1.Size = new System.Drawing.Size(40, 13);
+            this.UPGLabel1.TabIndex = 18;
+            this.UPGLabel1.Text = "UPG 1";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(400, 133);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(26, 13);
+            this.label26.TabIndex = 19;
+            this.label26.Text = "2 - ";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(400, 158);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(26, 13);
+            this.label27.TabIndex = 20;
+            this.label27.Text = "3 - ";
+            // 
+            // UPGLabel2
+            // 
+            this.UPGLabel2.AutoSize = true;
+            this.UPGLabel2.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UPGLabel2.Location = new System.Drawing.Point(429, 133);
+            this.UPGLabel2.Name = "UPGLabel2";
+            this.UPGLabel2.Size = new System.Drawing.Size(43, 13);
+            this.UPGLabel2.TabIndex = 21;
+            this.UPGLabel2.Text = "UPG 2";
+            // 
+            // UPGLabel3
+            // 
+            this.UPGLabel3.AutoSize = true;
+            this.UPGLabel3.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UPGLabel3.Location = new System.Drawing.Point(429, 158);
+            this.UPGLabel3.Name = "UPGLabel3";
+            this.UPGLabel3.Size = new System.Drawing.Size(43, 13);
+            this.UPGLabel3.TabIndex = 22;
+            this.UPGLabel3.Text = "UPG 3";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(493, 233);
+            this.ClientSize = new System.Drawing.Size(685, 233);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Plants vs. Zombies Shooters Randomizer v0.2";
+            this.Text = "Plants vs. Zombies Shooters Randomizer v0.3";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -646,11 +730,11 @@
         private System.Windows.Forms.TextBox gw1CharacterOutput;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label AbilityLabel1gw;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label AbilityLabel3gw;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label AbilityLabel2gw;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label13;
@@ -671,13 +755,20 @@
         private System.Windows.Forms.CheckBox gw2RandomAbilities;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox gw2CharacterOutput;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label AbilityLabel3;
+        private System.Windows.Forms.Label AbilityLabel2;
+        private System.Windows.Forms.Label AbilityLabel1;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label UPGLabel2;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label UPGLabel1;
+        private System.Windows.Forms.Label UPGLabel3;
     }
 }
 

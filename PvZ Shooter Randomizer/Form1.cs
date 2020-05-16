@@ -22,12 +22,12 @@ namespace PvZ_Shooter_Randomizer
         }
         void DisableRandomAbilities()
         {
-            label6.Text = "N/A";
-            label8.Text = "N/A";
-            label9.Text = "N/A";
-            label21.Text = "N/A";
-            label22.Text = "N/A";
-            label23.Text = "N/A";
+            AbilityLabel1gw.Text = "N/A";
+            AbilityLabel2gw.Text = "N/A";
+            AbilityLabel3gw.Text = "N/A";
+            AbilityLabel1.Text = "N/A";
+            AbilityLabel2.Text = "N/A";
+            AbilityLabel3.Text = "N/A";
         }
         static void UnavailbaleFeature()
         {
@@ -93,9 +93,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw1PeaAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw1PeaAbility3.Count);
 
-                                label6.Text = $"{gw1PeaAbility1[randAbility1]}";
-                                label8.Text = $"{gw1PeaAbility2[randAbility2]}";
-                                label9.Text = $"{gw1PeaAbility3[randAbility3]}";
+                                AbilityLabel1gw.Text = $"{gw1PeaAbility1[randAbility1]}";
+                                AbilityLabel2gw.Text = $"{gw1PeaAbility2[randAbility2]}";
+                                AbilityLabel3gw.Text = $"{gw1PeaAbility3[randAbility3]}";
                             }
 
                             //Randomized Chomper Abilities
@@ -108,9 +108,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw1ChompAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw1ChompAbility3.Count);
 
-                                label6.Text = $"{gw1ChompAbility1[randAbility1]}";
-                                label8.Text = $"{gw1ChompAbility2[randAbility2]}";
-                                label9.Text = $"{gw1ChompAbility3[randAbility3]}";
+                                AbilityLabel1gw.Text = $"{gw1ChompAbility1[randAbility1]}";
+                                AbilityLabel2gw.Text = $"{gw1ChompAbility2[randAbility2]}";
+                                AbilityLabel3gw.Text = $"{gw1ChompAbility3[randAbility3]}";
                             }
 
                             //Randomized Sunflower Abilities
@@ -123,9 +123,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw1SunAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw1SunAbility3.Count);
 
-                                label6.Text = $"{gw1SunAbility1[randAbility1]}";
-                                label8.Text = $"{gw1SunAbility2[randAbility2]}";
-                                label9.Text = $"{gw1SunAbility3[randAbility3]}";
+                                AbilityLabel1gw.Text = $"{gw1SunAbility1[randAbility1]}";
+                                AbilityLabel2gw.Text = $"{gw1SunAbility2[randAbility2]}";
+                                AbilityLabel3gw.Text = $"{gw1SunAbility3[randAbility3]}";
                             }
 
                             //Randomized Cactus Abilities
@@ -138,9 +138,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw1CactusAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw1CactusAbility3.Count);
 
-                                label6.Text = $"{gw1CactusAbility1[randAbility1]}";
-                                label8.Text = $"{gw1CactusAbility2[randAbility2]}";
-                                label9.Text = $"{gw1CactusAbility3[randAbility3]}";
+                                AbilityLabel1gw.Text = $"{gw1CactusAbility1[randAbility1]}";
+                                AbilityLabel2gw.Text = $"{gw1CactusAbility2[randAbility2]}";
+                                AbilityLabel3gw.Text = $"{gw1CactusAbility3[randAbility3]}";
                             }
 
                             if (randCharacter == "Boss Mode")
@@ -173,9 +173,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw1SoldierAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw1SoldierAbility3.Count);
 
-                                label6.Text = $"{gw1SoldierAbility1[randAbility1]}";
-                                label8.Text = $"{gw1SoldierAbility2[randAbility2]}";
-                                label9.Text = $"{gw1SoldierAbility3[randAbility3]}";
+                                AbilityLabel1gw.Text = $"{gw1SoldierAbility1[randAbility1]}";
+                                AbilityLabel2gw.Text = $"{gw1SoldierAbility2[randAbility2]}";
+                                AbilityLabel3gw.Text = $"{gw1SoldierAbility3[randAbility3]}";
                             }
                             if (randCharacter1 == "Engineer" || randCharacter1 == "Welder" || randCharacter1 == "Mechanic" ||
                                 randCharacter1 == "Electrician" || randCharacter1 == "Painter" || randCharacter1 == "Plumber" ||
@@ -186,9 +186,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw1EngineerAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw1EngineerAbility3.Count);
 
-                                label6.Text = $"{gw1EngineerAbility1[randAbility1]}";
-                                label8.Text = $"{gw1EngineerAbility2[randAbility2]}";
-                                label9.Text = $"{gw1EngineerAbility3[randAbility3]}";
+                                AbilityLabel1gw.Text = $"{gw1EngineerAbility1[randAbility1]}";
+                                AbilityLabel2gw.Text = $"{gw1EngineerAbility2[randAbility2]}";
+                                AbilityLabel3gw.Text = $"{gw1EngineerAbility3[randAbility3]}";
                             }
                             if (randCharacter1 == "Scientist" || randCharacter1 == "Marine Biologist" || randCharacter1 == "Dr. Toxic" ||
                                 randCharacter1 == "Physicist" || randCharacter1 == "Astronaut" || randCharacter1 == "Chemist" ||
@@ -199,9 +199,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw1ScientistAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw1ScientistAbility3.Count);
 
-                                label6.Text = $"{gw1ScientistAbility1[randAbility1]}";
-                                label8.Text = $"{gw1ScientistAbility2[randAbility2]}";
-                                label9.Text = $"{gw1ScientistAbility3[randAbility3]}";
+                                AbilityLabel1gw.Text = $"{gw1ScientistAbility1[randAbility1]}";
+                                AbilityLabel2gw.Text = $"{gw1ScientistAbility2[randAbility2]}";
+                                AbilityLabel3gw.Text = $"{gw1ScientistAbility3[randAbility3]}";
                             }
                             if (randCharacter1 == "All-Star" || randCharacter1 == "Cricket Star" || randCharacter1 == "Hockey Star" ||
                                 randCharacter1 == "Goalie Star" || randCharacter1 == "Rugby Star" || randCharacter1 == "Baseball Star" ||
@@ -212,9 +212,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw1AllStarAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw1AllStarAbility3.Count);
 
-                                label6.Text = $"{gw1AllStarAbility1[randAbility1]}";
-                                label8.Text = $"{gw1AllStarAbility2[randAbility2]}";
-                                label9.Text = $"{gw1AllStarAbility3[randAbility3]}";
+                                AbilityLabel1gw.Text = $"{gw1AllStarAbility1[randAbility1]}";
+                                AbilityLabel2gw.Text = $"{gw1AllStarAbility2[randAbility2]}";
+                                AbilityLabel3gw.Text = $"{gw1AllStarAbility3[randAbility3]}";
                             }
                             if (randCharacter1 == "Boss Mode")
                                 DisableRandomAbilities();
@@ -390,6 +390,7 @@ namespace PvZ_Shooter_Randomizer
                         case true:
 
                             //Randomized Peashooter Abilities
+
                             if (randCharacter == "Peashooter" || randCharacter == "Fire Pea" || randCharacter == "Ice Pea" ||
                         randCharacter == "Toxic Pea" || randCharacter == "Commando Pea" || randCharacter == "Agent Pea" ||
                         randCharacter == "Law Pea" || randCharacter == "Rock Pea" || randCharacter == "Plasma Pea" ||
@@ -400,9 +401,96 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw2PeaAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw2PeaAbility3.Count);
 
-                                label21.Text = $"{gw2PeaAbility1[randAbility1]}";
-                                label22.Text = $"{gw2PeaAbility2[randAbility2]}";
-                                label23.Text = $"{gw2PeaAbility3[randAbility3]}";
+                                AbilityLabel1.Text = $"{gw2PeaAbility1[randAbility1]}";
+                                AbilityLabel2.Text = $"{gw2PeaAbility2[randAbility2]}";
+                                AbilityLabel3.Text = $"{gw2PeaAbility3[randAbility3]}";
+
+                                //Randomize Peashooter Upgrades
+
+                                switch (gw2RandomUpgrades.Checked)
+                                {
+                                    case true:
+                                        switch (randCharacter)
+                                        {
+                                            case "Peashooter":
+                                                UpgListRef getPeaUPG = new UpgListRef();
+                                                var randomPeaUPG = new Random();
+                                                int randPeaUPG1 = randomPeaUPG.Next((getPeaUPG.GetPeaUpgs()).Count);
+                                                int randPeaUPG2 = randomPeaUPG.Next((getPeaUPG.GetPeaUpgs()).Count);
+                                                int randPeaUPG3 = randomPeaUPG.Next((getPeaUPG.GetPeaUpgs()).Count);
+
+                                                UPGLabel1.Text = $"{getPeaUPG.GetPeaUpgs()[randPeaUPG1]}";
+                                                UPGLabel2.Text = $"{getPeaUPG.GetPeaUpgs()[randPeaUPG2]}";
+                                                UPGLabel3.Text = $"{getPeaUPG.GetPeaUpgs()[randPeaUPG3]}";
+                                                break;
+
+                                            case "Fire Pea":
+                                                UpgListRef getFPeaUPG = new UpgListRef();
+                                                var randomFPeaUpg = new Random();
+                                                int randFPeaUPG1 = randomFPeaUpg.Next((getFPeaUPG.GetFirePeaUpgs()).Count);
+                                                int randFPeaUPG2 = randomFPeaUpg.Next((getFPeaUPG.GetFirePeaUpgs()).Count);
+                                                int randFPeaUPG3 = randomFPeaUpg.Next((getFPeaUPG.GetFirePeaUpgs()).Count);
+
+                                                UPGLabel1.Text = $"{getFPeaUPG.GetFirePeaUpgs()[randFPeaUPG1]}";
+                                                UPGLabel2.Text = $"{getFPeaUPG.GetFirePeaUpgs()[randFPeaUPG2]}";
+                                                UPGLabel3.Text = $"{getFPeaUPG.GetFirePeaUpgs()[randFPeaUPG3]}";
+                                                break;
+
+                                            case "Ice Pea":
+                                                UpgListRef getIPeaUPG = new UpgListRef();
+                                                var randomIPeaUpg = new Random();
+                                                int randIPeaUPG1 = randomIPeaUpg.Next((getIPeaUPG.GetIcePeaUpgs()).Count);
+                                                int randIPeaUPG2 = randomIPeaUpg.Next((getIPeaUPG.GetIcePeaUpgs()).Count);
+                                                int randIPeaUPG3 = randomIPeaUpg.Next((getIPeaUPG.GetIcePeaUpgs()).Count);
+
+                                                UPGLabel1.Text = $"{getIPeaUPG.GetIcePeaUpgs()[randIPeaUPG1]}";
+                                                UPGLabel2.Text = $"{getIPeaUPG.GetIcePeaUpgs()[randIPeaUPG2]}";
+                                                UPGLabel3.Text = $"{getIPeaUPG.GetIcePeaUpgs()[randIPeaUPG3]}";
+                                                break;
+
+                                            case "Toxic Pea":
+                                                UpgListRef getTPeaUPG = new UpgListRef();
+                                                var randomTPeaUpg = new Random();
+                                                int randTPeaUPG1 = randomTPeaUpg.Next((getTPeaUPG.GetToxicPeaUpgs()).Count);
+                                                int randTPeaUPG2 = randomTPeaUpg.Next((getTPeaUPG.GetToxicPeaUpgs()).Count);
+                                                int randTPeaUPG3 = randomTPeaUpg.Next((getTPeaUPG.GetToxicPeaUpgs()).Count);
+
+                                                UPGLabel1.Text = $"{getTPeaUPG.GetToxicPeaUpgs()[randTPeaUPG1]}";
+                                                UPGLabel2.Text = $"{getTPeaUPG.GetToxicPeaUpgs()[randTPeaUPG2]}";
+                                                UPGLabel3.Text = $"{getTPeaUPG.GetToxicPeaUpgs()[randTPeaUPG3]}";
+                                                break;
+
+                                            case "Commando Pea":
+                                                UpgListRef getCPeaUPG = new UpgListRef();
+                                                var randomCPeaUpg = new Random();
+                                                int randCPeaUPG1 = randomCPeaUpg.Next((getCPeaUPG.GetCommandoPeaUpgs()).Count);
+                                                int randCPeaUPG2 = randomCPeaUpg.Next((getCPeaUPG.GetCommandoPeaUpgs()).Count);
+                                                int randCPeaUPG3 = randomCPeaUpg.Next((getCPeaUPG.GetCommandoPeaUpgs()).Count);
+
+                                                UPGLabel1.Text = $"{getCPeaUPG.GetCommandoPeaUpgs()[randCPeaUPG1]}";
+                                                UPGLabel2.Text = $"{getCPeaUPG.GetCommandoPeaUpgs()[randCPeaUPG2]}";
+                                                UPGLabel3.Text = $"{getCPeaUPG.GetCommandoPeaUpgs()[randCPeaUPG3]}";
+                                                break;
+
+                                            case "Agent Pea":
+                                                UpgListRef getAPeaUPG = new UpgListRef();
+                                                var randomAPeaUpg = new Random();
+                                                int randAPeaUPG1 = randomAPeaUpg.Next((getAPeaUPG.GetAgentPeaUpgs()).Count);
+                                                int randAPeaUPG2 = randomAPeaUpg.Next((getAPeaUPG.GetAgentPeaUpgs()).Count);
+                                                int randAPeaUPG3 = randomAPeaUpg.Next((getAPeaUPG.GetAgentPeaUpgs()).Count);
+
+                                                UPGLabel1.Text = $"{getAPeaUPG.GetAgentPeaUpgs()[randAPeaUPG1]}";
+                                                UPGLabel2.Text = $"{getAPeaUPG.GetAgentPeaUpgs()[randAPeaUPG2]}";
+                                                UPGLabel3.Text = $"{getAPeaUPG.GetAgentPeaUpgs()[randAPeaUPG3]}";
+                                                break;
+                                        }
+
+                                        break;
+
+                                    case false:
+                                        break;
+                                }
+
                             }
 
                             //Randomized Chomper Abilities
@@ -416,9 +504,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw2ChomperAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw2ChomperAbility3.Count);
 
-                                label21.Text = $"{gw2ChomperAbility1[randAbility1]}";
-                                label22.Text = $"{gw2ChomperAbility2[randAbility2]}";
-                                label23.Text = $"{gw2ChomperAbility3[randAbility3]}";
+                                AbilityLabel1.Text = $"{gw2ChomperAbility1[randAbility1]}";
+                                AbilityLabel2.Text = $"{gw2ChomperAbility2[randAbility2]}";
+                                AbilityLabel3.Text = $"{gw2ChomperAbility3[randAbility3]}";
                             }
 
                             //Randomized Sunflower Abilities
@@ -431,9 +519,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw2SunflowerAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw2SunflowerAbility3.Count);
 
-                                label21.Text = $"{gw2SunflowerAbility1[randAbility1]}";
-                                label22.Text = $"{gw2SunflowerAbility2[randAbility2]}";
-                                label23.Text = $"{gw2SunflowerAbility3[randAbility3]}";
+                                AbilityLabel1.Text = $"{gw2SunflowerAbility1[randAbility1]}";
+                                AbilityLabel2.Text = $"{gw2SunflowerAbility2[randAbility2]}";
+                                AbilityLabel3.Text = $"{gw2SunflowerAbility3[randAbility3]}";
                             }
 
                             //Randomized Cactus Abilities
@@ -447,9 +535,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw2CactusAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw2CactusAbility3.Count);
 
-                                label21.Text = $"{gw2CactusAbility1[randAbility1]}";
-                                label22.Text = $"{gw2CactusAbility2[randAbility2]}";
-                                label23.Text = $"{gw2CactusAbility3[randAbility3]}";
+                                AbilityLabel1.Text = $"{gw2CactusAbility1[randAbility1]}";
+                                AbilityLabel2.Text = $"{gw2CactusAbility2[randAbility2]}";
+                                AbilityLabel3.Text = $"{gw2CactusAbility3[randAbility3]}";
                             }
                             if (randCharacter == "Citron" || randCharacter == "Frozen Citron" || randCharacter == "Electro Citron" ||
                                 randCharacter == "Iron Citron" || randCharacter == "Party Citron" || randCharacter == "Toxic Citron")
@@ -459,9 +547,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw2CitronAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw2CitronAbility3.Count);
 
-                                label21.Text = $"{gw2CitronAbility1[randAbility1]}";
-                                label22.Text = $"{gw2CitronAbility2[randAbility2]}";
-                                label23.Text = $"{gw2CitronAbility3[randAbility3]}";
+                                AbilityLabel1.Text = $"{gw2CitronAbility1[randAbility1]}";
+                                AbilityLabel2.Text = $"{gw2CitronAbility2[randAbility2]}";
+                                AbilityLabel3.Text = $"{gw2CitronAbility3[randAbility3]}";
                             }
                             if (randCharacter == "Rose" || randCharacter == "Druid Rose" || randCharacter == "Fire Rose" ||
                                 randCharacter == "Frost Rose" || randCharacter == "Party Rose" || randCharacter == "Nec'Rose")
@@ -471,9 +559,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw2RoseAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw2RoseAbility3.Count);
 
-                                label21.Text = $"{gw2RoseAbility1[randAbility1]}";
-                                label22.Text = $"{gw2RoseAbility2[randAbility2]}";
-                                label23.Text = $"{gw2RoseAbility3[randAbility3]}";
+                                AbilityLabel1.Text = $"{gw2RoseAbility1[randAbility1]}";
+                                AbilityLabel2.Text = $"{gw2RoseAbility2[randAbility2]}";
+                                AbilityLabel3.Text = $"{gw2RoseAbility3[randAbility3]}";
                             }
                             if (randCharacter == "Kernel Corn" || randCharacter == "BBQ Corn" || randCharacter == "Pops Corn" ||
                                 randCharacter == "Mob Cob" || randCharacter == "Party Corn" || randCharacter == "Commando Corn")
@@ -483,9 +571,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw2CornAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw2CornAbility3.Count);
 
-                                label21.Text = $"{gw2CornAbility1[randAbility1]}";
-                                label22.Text = $"{gw2CornAbility2[randAbility2]}";
-                                label23.Text = $"{gw2CornAbility3[randAbility3]}";
+                                AbilityLabel1.Text = $"{gw2CornAbility1[randAbility1]}";
+                                AbilityLabel2.Text = $"{gw2CornAbility2[randAbility2]}";
+                                AbilityLabel3.Text = $"{gw2CornAbility3[randAbility3]}";
                             }
 
                             break;
@@ -517,9 +605,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw2SoldierAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw2SoldierAbility3.Count);
 
-                                label21.Text = $"{gw2SoldierAbility1[randAbility1]}";
-                                label22.Text = $"{gw2SoldierAbility2[randAbility2]}";
-                                label23.Text = $"{gw2SoldierAbility3[randAbility3]}";
+                                AbilityLabel1.Text = $"{gw2SoldierAbility1[randAbility1]}";
+                                AbilityLabel2.Text = $"{gw2SoldierAbility2[randAbility2]}";
+                                AbilityLabel3.Text = $"{gw2SoldierAbility3[randAbility3]}";
                             }
                             if (randCharacter1 == "Engineer" || randCharacter1 == "Welder" || randCharacter1 == "Mechanic" ||
                                 randCharacter1 == "Electrician" || randCharacter1 == "Painter" || randCharacter1 == "Plumber" ||
@@ -531,9 +619,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw2EngineerAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw2EngineerAbility3.Count);
 
-                                label21.Text = $"{gw2EngineerAbility1[randAbility1]}";
-                                label22.Text = $"{gw2EngineerAbility2[randAbility2]}";
-                                label23.Text = $"{gw2EngineerAbility3[randAbility3]}";
+                                AbilityLabel1.Text = $"{gw2EngineerAbility1[randAbility1]}";
+                                AbilityLabel2.Text = $"{gw2EngineerAbility2[randAbility2]}";
+                                AbilityLabel3.Text = $"{gw2EngineerAbility3[randAbility3]}";
                             }
                             if (randCharacter1 == "Scientist" || randCharacter1 == "Marine Biologist" || randCharacter1 == "Dr. Toxic" ||
                                 randCharacter1 == "Physicist" || randCharacter1 == "Astronaut" || randCharacter1 == "Chemist" ||
@@ -545,9 +633,9 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw2ScientistAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw2ScientistAbility3.Count);
 
-                                label21.Text = $"{gw2ScientistAbility1[randAbility1]}";
-                                label22.Text = $"{gw2ScientistAbility2[randAbility2]}";
-                                label23.Text = $"{gw2ScientistAbility3[randAbility3]}";
+                                AbilityLabel1.Text = $"{gw2ScientistAbility1[randAbility1]}";
+                                AbilityLabel2.Text = $"{gw2ScientistAbility2[randAbility2]}";
+                                AbilityLabel3.Text = $"{gw2ScientistAbility3[randAbility3]}";
                             }
                             if (randCharacter1 == "All-Star" || randCharacter1 == "Cricket Star" || randCharacter1 == "Hockey Star" ||
                                 randCharacter1 == "Goalie Star" || randCharacter1 == "Rugby Star" || randCharacter1 == "Baseball Star" ||
@@ -559,62 +647,62 @@ namespace PvZ_Shooter_Randomizer
                                 int randAbility2 = randomAbility.Next(gw2AllStarAbility2.Count);
                                 int randAbility3 = randomAbility.Next(gw2AllStarAbility3.Count);
 
-                                label21.Text = $"{gw2AllStarAbility1[randAbility1]}";
-                                label22.Text = $"{gw2AllStarAbility2[randAbility2]}";
-                                label23.Text = $"{gw2AllStarAbility3[randAbility3]}";
+                                AbilityLabel1.Text = $"{gw2AllStarAbility1[randAbility1]}";
+                                AbilityLabel2.Text = $"{gw2AllStarAbility2[randAbility2]}";
+                                AbilityLabel3.Text = $"{gw2AllStarAbility3[randAbility3]}";
                             }
                             if (randCharacter1 == "Imp")
                             {
-                                label21.Text = "Gravity Grenade";
-                                label22.Text = "Robo Call";
-                                label23.Text = "Impkata";
+                                AbilityLabel1.Text = "Gravity Grenade";
+                                AbilityLabel2.Text = "Robo Call";
+                                AbilityLabel3.Text = "Impkata";
                             }    
                             if (randCharacter1 == "Lil' Drake")
                             {
-                                label21.Text = "Gravity Grenade";
-                                label22.Text = "Drake Call";
-                                label23.Text = "Impkata";
+                                AbilityLabel1.Text = "Gravity Grenade";
+                                AbilityLabel2.Text = "Drake Call";
+                                AbilityLabel3.Text = "Impkata";
                             }
                             if (randCharacter1 == "Pylon Imp")
                             {
                                 var randomAbility = new Random();
                                 int randAbility2 = randomAbility.Next(gw2ImpAbility2.Count);
-                                label21.Text = "Gravity Grenade";
-                                label22.Text = $"{gw2ImpAbility2[randAbility2]}";
-                                label23.Text = "Impkata";
+                                AbilityLabel1.Text = "Gravity Grenade";
+                                AbilityLabel2.Text = $"{gw2ImpAbility2[randAbility2]}";
+                                AbilityLabel3.Text = "Impkata";
                             }
                             if (randCharacter1 == "S.H.R.Imp")
                             {
-                                label21.Text = "Gravity Grenade";
-                                label22.Text = "S.H.R.IMP Call";
-                                label23.Text = "Impkata";
+                                AbilityLabel1.Text = "Gravity Grenade";
+                                AbilityLabel2.Text = "S.H.R.IMP Call";
+                                AbilityLabel3.Text = "Impkata";
                             }
                             if (randCharacter1 == "Z7 Imp")
                             {
-                                label21.Text = "Gravity Grenade";
-                                label22.Text = "Z7 Call";
-                                label23.Text = "Impkata";
+                                AbilityLabel1.Text = "Gravity Grenade";
+                                AbilityLabel2.Text = "Z7 Call";
+                                AbilityLabel3.Text = "Impkata";
                             }
                             if (randCharacter1 == "Party Imp")
                             {
-                                label21.Text = "Gravity Grenade";
-                                label22.Text = "Party Call";
-                                label23.Text = "Impkata";
+                                AbilityLabel1.Text = "Gravity Grenade";
+                                AbilityLabel2.Text = "Party Call";
+                                AbilityLabel3.Text = "Impkata";
                             }
                             if (randCharacter1 == "Scallywag Imp")
                             {
-                                label21.Text = "Gravity Grenade";
-                                label22.Text = "Scallywag Call";
-                                label23.Text = "Impkata";
+                                AbilityLabel1.Text = "Gravity Grenade";
+                                AbilityLabel2.Text = "Scallywag Call";
+                                AbilityLabel3.Text = "Impkata";
                             }
                             if (randCharacter1 == "Super Brainz" || randCharacter1 == "Cozmic Brainz" || randCharacter1 == "Electro Brainz" ||
                                 randCharacter1 == "Toxic Brainz" || randCharacter1 == "Party Brainz" || randCharacter1 == "Breakfast Brainz")
                             {
                                 var randomAbility = new Random();
                                 int randAbility1 = randomAbility.Next(gw2SuperBrainzAbility1.Count);
-                                label21.Text = $"{gw2SuperBrainzAbility1[randAbility1]}";
-                                label22.Text = "Turbo Twister";
-                                label23.Text = "Heroic Kick";
+                                AbilityLabel1.Text = $"{gw2SuperBrainzAbility1[randAbility1]}";
+                                AbilityLabel2.Text = "Turbo Twister";
+                                AbilityLabel3.Text = "Heroic Kick";
                             }
                             if (randCharacter1 == "Captain Deadbeard" || randCharacter1 == "Captain Cannon" || randCharacter1 == "Captain Flameface" ||
                                 randCharacter1 == "Captain Sharkbite" || randCharacter1 == "Captain Partyman" || randCharacter1 == "Captain Squawk")
@@ -622,9 +710,9 @@ namespace PvZ_Shooter_Randomizer
                                 var randomAbility = new Random();
                                 int randAbility1 = randomAbility.Next(gw2DeadbeardAbility1.Count);
                                 int randAbility2 = randomAbility.Next(gw2DeadbeardAbility2.Count);
-                                label21.Text = $"{gw2DeadbeardAbility1[randAbility1]}";
-                                label22.Text = $"{gw2DeadbeardAbility2[randAbility2]}";
-                                label23.Text = "Cannon Rodeo";
+                                AbilityLabel1.Text = $"{gw2DeadbeardAbility1[randAbility1]}";
+                                AbilityLabel2.Text = $"{gw2DeadbeardAbility2[randAbility2]}";
+                                AbilityLabel3.Text = "Cannon Rodeo";
                             }
                             break;
                     }
@@ -639,11 +727,10 @@ namespace PvZ_Shooter_Randomizer
 
         private void gw2RandomUpgrades_CheckedChanged(object sender, EventArgs e)
         {
-            UnavailbaleFeature();
-            gw2RandomUpgrades.Checked = false;
+            
         }
 
-        //Garden Warfare 2 Characters
+        //Garden Warfare 2 Plants
 
         List<string> gw2Plants = new List<string>()
         {
@@ -660,6 +747,8 @@ namespace PvZ_Shooter_Randomizer
             "Commando Corn", "Torchwood"
         };
 
+        //Garden Warfare 2 Zombies
+
         List<string> gw2Zombies = new List<string>()
         {
             "Foot Soldier", "Arctic Trooper", "Super Commando", "Tank Commander", "General Supremo",
@@ -675,7 +764,8 @@ namespace PvZ_Shooter_Randomizer
         };
 
 
-        //Plant Abilities
+        //Peashooter Abilities
+
         List<string> gw2PeaAbility1 = new List<string>
         {
             "Chili Bean Bomb", "Sombrero Bean Bomb", "Dark Bean Bomb"
@@ -688,6 +778,9 @@ namespace PvZ_Shooter_Randomizer
         {
             "Hyper", "Super Pea Jump"
         };
+
+        //Chomper Abilities
+
         List<string> gw2ChomperAbility1 = new List<string>
         {
             "Spikeweed", "Spiky Spikeweed", "Vampweed"
@@ -700,6 +793,9 @@ namespace PvZ_Shooter_Randomizer
         {
             "Goop", "Super Sticky Goop", "Chomp Cannon"
         };
+
+        //Sunflower Abilities
+
         List<string> gw2SunflowerAbility1 = new List<string>
         {
             "Heal Beam", "Rainbow Heal Beam"
@@ -712,6 +808,9 @@ namespace PvZ_Shooter_Randomizer
         {
             "Heal Flower", "Dark Flower", "Rainbow Heal Flower"
         };
+
+        //Cactus Abilities
+
         List<string> gw2CactusAbility1 = new List<string>
         {
             "Potato Mine", "Potato Nugget Mine", "Bling Potato Mine"
@@ -724,6 +823,9 @@ namespace PvZ_Shooter_Randomizer
         {
             "Tallnut Battlements", "Iron Maiden", "Bling Maiden"
         };
+
+        //Kernel Corn Abilities
+
         List<string> gw2CornAbility1 = new List<string>
         { 
             "Butter Barrage", "Bigger Better Butter"
@@ -736,6 +838,9 @@ namespace PvZ_Shooter_Randomizer
         {
             "Shuck Shot", "Multi-Shuck"
         };
+
+        //Citron Abilities
+
         List<string> gw2CitronAbility1 = new List<string>
         {
             "Peel Shield", "Mood Shield"
@@ -748,6 +853,9 @@ namespace PvZ_Shooter_Randomizer
         {
             "E.M.Peach"
         };
+
+        //Rose Abilities
+
         List<string> gw2RoseAbility1 = new List<string>
         {
             "Time Snare"
@@ -761,7 +869,8 @@ namespace PvZ_Shooter_Randomizer
             "Goatify", "Psychedelic Goat"
         };
 
-        //Zombie Abilities
+        //Soldier Abilities
+
         List<string> gw2SoldierAbility1 = new List<string>
         {
             "Zombie Stink Cloud", "Super Stink Cloud"
@@ -774,6 +883,9 @@ namespace PvZ_Shooter_Randomizer
         {
             "ZPG", "Multi-Rocket"
         };
+
+        //Engineer Abilities
+
         List<string> gw2EngineerAbility1 = new List<string>
         {
             "Sonic Grenade", "Proximity Sonic Mines"
@@ -786,6 +898,9 @@ namespace PvZ_Shooter_Randomizer
         {
             "Jackhammer", "Turbo Jackhammer"
         };
+
+        //Scientist Abilities
+
         List<string> gw2ScientistAbility1 = new List<string>
         {
             "Sticky Explody Bomb", "Mega Heal Bomb"
@@ -798,6 +913,9 @@ namespace PvZ_Shooter_Randomizer
         {
             "Zombie Heal Beam", "Zombie Heal Station", "Bling Heal Station", "Armored Bling Station"
         };
+
+        //All-Star Abilities
+
         List<string> gw2AllStarAbility1 = new List<string>
         {
             "Imp Punt", "Long Bomb"
@@ -810,14 +928,23 @@ namespace PvZ_Shooter_Randomizer
         {
             "Dummy Shield", "Shield Decoy", "Future Dummy"
         };
+
+        //Imp Abilities
+
         List<string> gw2ImpAbility2 = new List<string>
         {
             "Pylon Call", "Bling Pylon Call"
         };
+
+        //Super Brainz Abilities
+
         List<string> gw2SuperBrainzAbility1 = new List<string>
         {
             "Super Ultra Ball", "Super Multi Ball", "Super Guided Ultra Ball"
         };
+
+        //Captain Deadbeard Abilities
+
         List<string> gw2DeadbeardAbility1 = new List<string>
         {
             "Barrel Blast", "Looty Booty Barrel Blast"
