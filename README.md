@@ -19,3 +19,6 @@ This is a randomizer program used for all of the Plants vs. Zombies Shooters. Cu
 
  0.2
  - Full Random Ability support for Garden Warfare 1 and Garden Warfare 2
+
+ 0.3-pr1
+ - Added Random Upgrade support for a handful of Peashooters (GW2)
