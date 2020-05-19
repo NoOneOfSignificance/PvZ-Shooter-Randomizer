@@ -22,3 +22,6 @@ This is a randomizer program used for all of the Plants vs. Zombies Shooters. Cu
 
  0.3-pr1
  - Added Random Upgrade support for a handful of Peashooters (GW2)
+
+0.3-pr2
+ - Added Random Upgrade support for all Peashooters, Chomper, and Fire Chomper (GW2)
