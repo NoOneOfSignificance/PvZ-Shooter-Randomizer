@@ -64,4 +64,63 @@ public class UpgListRef
         return gw2AgentPeaUpgs;
     }
 
+    private List<string> gw2LawPeaUpgs = new List<string>
+    {
+        "Health Regeneration Delay", "Zoom", "Health Regeneration", "Speed", "Reload", "Reload", "Damage", "Health"
+    };
+
+    public List<string> GetLawPeaUpgs()
+    {
+        return gw2LawPeaUpgs;
+    }
+
+    private List<string> gw2PlasmaPeaUpgs = new List<string>
+    {
+        "Health Regeneration Delay", "Zoom", "Health Regeneration", "Speed", "Reload", "Ammo", "Damage", "Health"
+    };
+
+    public List<string> GetPlasmaPeaUpgs()
+    {
+        return gw2PlasmaPeaUpgs;
+    }
+
+    private List<string> gw2RockPeaUpgs = new List<string>
+    {
+        "Health Regeneration Delay", "Zoom", "Health Regeneration", "Speed", "Reload", "Ammo", "Damage", "Health"
+    };
+
+    public List<string> GetRockPeaUpgs()
+    {
+        return gw2RockPeaUpgs;
+    }
+
+    private List<string> gw2ElectroPeaUpgs = new List<string>
+    {
+        "Health Regeneration Delay", "Zoom", "Health Regeneration", "Speed", "Health", "Reload", "Reload", "Ammo"
+    };
+
+    public List<string> GetElectroPeaUpgs()
+    {
+        return gw2ElectroPeaUpgs;
+    }
+
+    private List<string> gw2ChomperUpgs = new List<string>
+    {
+        "Speed", "Digestion", "Health", "Damage", "Digestion", "Damage", "Health Regeneration Delay", "Health Regeneration"
+    };
+
+    public List<string> GetChomperUpgs()
+    {
+        return gw2ChomperUpgs;
+    }
+
+    private List<string> gw2FireChomperUpgs = new List<string>
+    {
+        "Speed", "Digestion", "Health", "Fire", "Overheat", "Digestion", "Health Regeneration Delay", "Health Regeneration"
+    };
+
+    public List<string> GetFireChomperUpgs()
+    {
+        return gw2FireChomperUpgs;
+    }
 }

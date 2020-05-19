@@ -48,6 +48,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.UPGLabel3 = new System.Windows.Forms.Label();
+            this.UPGLabel2 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.UPGLabel1 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.AbilityLabel3 = new System.Windows.Forms.Label();
             this.AbilityLabel2 = new System.Windows.Forms.Label();
             this.AbilityLabel1 = new System.Windows.Forms.Label();
@@ -75,13 +82,6 @@
             this.bfnTeamSelect = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.UPGLabel1 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.UPGLabel2 = new System.Windows.Forms.Label();
-            this.UPGLabel3 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -327,6 +327,76 @@
             this.tabPage2.Text = "PvZ: GW2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // UPGLabel3
+            // 
+            this.UPGLabel3.AutoSize = true;
+            this.UPGLabel3.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UPGLabel3.Location = new System.Drawing.Point(429, 158);
+            this.UPGLabel3.Name = "UPGLabel3";
+            this.UPGLabel3.Size = new System.Drawing.Size(43, 13);
+            this.UPGLabel3.TabIndex = 22;
+            this.UPGLabel3.Text = "UPG 3";
+            // 
+            // UPGLabel2
+            // 
+            this.UPGLabel2.AutoSize = true;
+            this.UPGLabel2.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UPGLabel2.Location = new System.Drawing.Point(429, 133);
+            this.UPGLabel2.Name = "UPGLabel2";
+            this.UPGLabel2.Size = new System.Drawing.Size(43, 13);
+            this.UPGLabel2.TabIndex = 21;
+            this.UPGLabel2.Text = "UPG 2";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(400, 158);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(26, 13);
+            this.label27.TabIndex = 20;
+            this.label27.Text = "3 - ";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(400, 133);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(26, 13);
+            this.label26.TabIndex = 19;
+            this.label26.Text = "2 - ";
+            // 
+            // UPGLabel1
+            // 
+            this.UPGLabel1.AutoSize = true;
+            this.UPGLabel1.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UPGLabel1.Location = new System.Drawing.Point(429, 107);
+            this.UPGLabel1.Name = "UPGLabel1";
+            this.UPGLabel1.Size = new System.Drawing.Size(40, 13);
+            this.UPGLabel1.TabIndex = 18;
+            this.UPGLabel1.Text = "UPG 1";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(403, 107);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(23, 13);
+            this.label25.TabIndex = 17;
+            this.label25.Text = "1 - ";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Burbank Small Bold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(403, 86);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(74, 15);
+            this.label24.TabIndex = 16;
+            this.label24.Text = "Upgrades";
+            // 
             // AbilityLabel3
             // 
             this.AbilityLabel3.AutoSize = true;
@@ -509,7 +579,7 @@
             this.tabPage3.Controls.Add(this.label13);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(487, 209);
+            this.tabPage3.Size = new System.Drawing.Size(679, 209);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "PvZ: BFN";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -622,76 +692,6 @@
             this.label13.Text = "Plants vs. Zombies: Battle for Neighborville\r\nCharacter Randomizer";
             this.label13.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Burbank Small Bold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(403, 86);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(74, 15);
-            this.label24.TabIndex = 16;
-            this.label24.Text = "Upgrades";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(403, 107);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(23, 13);
-            this.label25.TabIndex = 17;
-            this.label25.Text = "1 - ";
-            // 
-            // UPGLabel1
-            // 
-            this.UPGLabel1.AutoSize = true;
-            this.UPGLabel1.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UPGLabel1.Location = new System.Drawing.Point(429, 107);
-            this.UPGLabel1.Name = "UPGLabel1";
-            this.UPGLabel1.Size = new System.Drawing.Size(40, 13);
-            this.UPGLabel1.TabIndex = 18;
-            this.UPGLabel1.Text = "UPG 1";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(400, 133);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(26, 13);
-            this.label26.TabIndex = 19;
-            this.label26.Text = "2 - ";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(400, 158);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(26, 13);
-            this.label27.TabIndex = 20;
-            this.label27.Text = "3 - ";
-            // 
-            // UPGLabel2
-            // 
-            this.UPGLabel2.AutoSize = true;
-            this.UPGLabel2.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UPGLabel2.Location = new System.Drawing.Point(429, 133);
-            this.UPGLabel2.Name = "UPGLabel2";
-            this.UPGLabel2.Size = new System.Drawing.Size(43, 13);
-            this.UPGLabel2.TabIndex = 21;
-            this.UPGLabel2.Text = "UPG 2";
-            // 
-            // UPGLabel3
-            // 
-            this.UPGLabel3.AutoSize = true;
-            this.UPGLabel3.Font = new System.Drawing.Font("Burbank Small Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UPGLabel3.Location = new System.Drawing.Point(429, 158);
-            this.UPGLabel3.Name = "UPGLabel3";
-            this.UPGLabel3.Size = new System.Drawing.Size(43, 13);
-            this.UPGLabel3.TabIndex = 22;
-            this.UPGLabel3.Text = "UPG 3";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -700,7 +700,7 @@
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Plants vs. Zombies Shooters Randomizer v0.3";
+            this.Text = "Plants vs. Zombies Shooters Randomizer v0.3-pr2";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
